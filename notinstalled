@@ -1,0 +1,35 @@
+yaourt -S xcursor-breeze
+yaourt -S visual-studio-code-bin
+yaourt -S ttf-mac-fonts
+yaourt -S ttf-font-awesome
+yaourt -S surfn-icons-git
+yaourt -S spotify
+yaourt -S sardi-icons
+yaourt -S sardi-orb-colora-variations-icons-git
+yaourt -S pixeluvo
+yaourt -S papirus-icon-theme-git
+yaourt -S paper-icon-theme-git
+#yaourt -S pamac-aur
+#yaourt -S pacli
+yaourt -S numix-circle-icon-theme-git
+yaourt -S neofetch
+yaourt -S megasync
+yaourt -S insync
+yaourt -S dropbox
+
+yaourt -S halo-icons-git
+yaourt -S grub-customizer
+yaourt -S gradio
+yaourt -S google-chrome
+yaourt -S foxitreader
+yaourt -S font-manager
+yaourt -S discord
+yaourt -S 
+
+
+sudo pacman -S 
+sudo pacman -S 
+sudo pacman -S 
+sudo pacman -S 
+sudo pacman -S 
+sudo pacman -S 
