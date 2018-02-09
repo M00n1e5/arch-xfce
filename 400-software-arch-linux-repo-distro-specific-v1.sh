@@ -1,10 +1,5 @@
 #!/bin/bash
 set -e
-##################################################################################################################
-#
-#   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
-#
-##################################################################################################################
 
 # software from AUR (Arch User Repositories)
 # https://aur.archlinux.org/packages/
@@ -12,6 +7,8 @@ set -e
 #giving tmp folder extra gb in order not to run out of disk space while installing software
 #only if you run into issues with that
 #sudo mount -o remount,size=5G,noatime /tmp
+
+#Slim skal testes - mulig byttes med lightdm
 
 echo "DESKTOP SPECIFIC APPLICATIONS"
 

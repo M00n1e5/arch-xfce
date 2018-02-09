@@ -1,10 +1,5 @@
 #!/bin/bash
 set -e
-##################################################################################################################
-#
-#   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
-#	Edited -
-##################################################################################################################
 
 #Sound
 sudo pacman -S pulseaudio --noconfirm --needed
@@ -15,6 +10,7 @@ sudo pacman -S gstreamer --noconfirm --needed
 sudo pacman -S gst-plugins-good gst-plugins-bad gst-plugins-base gst-plugins-ugly --noconfirm --needed
 sudo pacman -S volumeicon --noconfirm --needed
 sudo pacman -S playerctl --noconfirm --needed
+
 
 echo "################################################################"
 echo "##############   sound software installed   ####################"

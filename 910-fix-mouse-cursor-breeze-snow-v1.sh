@@ -1,10 +1,5 @@
 #!/bin/bash
 set -e
-##################################################################################################################
-#
-#   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
-#
-##################################################################################################################
 
 echo "Everywhere Breeze-snow as cursor"
 echo "Change cursor if you want"

@@ -1,13 +1,7 @@
 #!/bin/bash
 set -e
-##################################################################################################################
-#
-#   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
-#	Edited -
-##################################################################################################################
 
-# installing bluetooth software
-
+#bluetooth software
 sudo pacman -S --noconfirm --needed pulseaudio-bluetooth
 sudo pacman -S --noconfirm --needed bluez
 sudo pacman -S --noconfirm --needed bluez-libs

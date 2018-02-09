@@ -1,10 +1,5 @@
 #!/bin/bash
 set -e
-##################################################################################################################
-#
-#   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
-#	Edited -
-##################################################################################################################
 
 # software from standard Arch Linux repositories
 # Core, Extra, Community, Multilib repositories
@@ -13,9 +8,9 @@ echo "Installing category Accessories"
 sudo pacman -S --noconfirm --needed catfish
 sudo pacman -S --noconfirm --needed cmatrix
 sudo pacman -S --noconfirm --needed galculator
-sudo pacman -S --noconfirm --needed gnome-screenshot
 sudo pacman -S --noconfirm --needed docky
-sudo pacman -S --noconfirm --needed redshift
+#sudo pacman -S --noconfirm --needed gnome-screenshot
+#sudo pacman -S --noconfirm --needed redshift
 #sudo pacman -S --noconfirm --needed xfburn
 #sudo pacman -S --noconfirm --needed variety
 #sudo pacman -S --noconfirm --needed
@@ -60,12 +55,13 @@ sudo pacman -S --noconfirm --needed transmission-gtk
 echo "Installing category Multimedia"
 
 sudo pacman -S --noconfirm --needed clementine
-sudo pacman -S --noconfirm --needed deadbeef
+#sudo pacman -S --noconfirm --needed deadbeef
 sudo pacman -S --noconfirm --needed openshot
 sudo pacman -S --noconfirm --needed shotwell
 sudo pacman -S --noconfirm --needed simplescreenrecorder
 sudo pacman -S --noconfirm --needed smplayer
 sudo pacman -S --noconfirm --needed vlc
+sudo pacman -S --noconfirm --needed audacity
 #sudo pacman -S --noconfirm --needed
 
 echo "Installing category Office"
@@ -82,6 +78,7 @@ echo "Installing category Other"
 
 echo "Installing category System"
 
+sudo pacman -S --noconfirm --needed p7zip
 sudo pacman -S --noconfirm --needed tilda
 sudo pacman -S --noconfirm --needed archey3
 sudo pacman -S --noconfirm --needed cowsay
@@ -114,10 +111,10 @@ sudo pacman -S --noconfirm --needed net-tools
 sudo pacman -S --noconfirm --needed noto-fonts
 sudo pacman -S --noconfirm --needed numlockx
 sudo pacman -S --noconfirm --needed polkit-gnome
-sudo pacman -S --noconfirm --needed sane
+#sudo pacman -S --noconfirm --needed sane
 sudo pacman -S --noconfirm --needed screenfetch
 sudo pacman -S --noconfirm --needed scrot
-sudo pacman -S --noconfirm --needed simple-scan
+#sudo pacman -S --noconfirm --needed simple-scan
 sudo pacman -S --noconfirm --needed sysstat
 #sudo pacman -S --noconfirm --needed terminator
 sudo pacman -S --noconfirm --needed termite
@@ -127,7 +124,7 @@ sudo pacman -S --noconfirm --needed thunar-volman
 sudo pacman -S --noconfirm --needed ttf-ubuntu-font-family
 sudo pacman -S --noconfirm --needed ttf-droid
 sudo pacman -S --noconfirm --needed tumbler
-sudo pacman -S --noconfirm --needed vnstat
+#sudo pacman -S --noconfirm --needed vnstat
 sudo pacman -S --noconfirm --needed wget
 sudo pacman -S --noconfirm --needed unclutter
 sudo pacman -S --noconfirm --needed rxvt-unicode

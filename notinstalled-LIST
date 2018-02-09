@@ -1,3 +1,5 @@
+
+##AUR Repos##
 yaourt -S xcursor-breeze
 yaourt -S visual-studio-code-bin
 yaourt -S ttf-mac-fonts
@@ -9,14 +11,11 @@ yaourt -S sardi-orb-colora-variations-icons-git
 yaourt -S pixeluvo
 yaourt -S papirus-icon-theme-git
 yaourt -S paper-icon-theme-git
-#yaourt -S pamac-aur
-#yaourt -S pacli
 yaourt -S numix-circle-icon-theme-git
 yaourt -S neofetch
 yaourt -S megasync
 yaourt -S insync
 yaourt -S dropbox
-
 yaourt -S halo-icons-git
 yaourt -S grub-customizer
 yaourt -S gradio
@@ -25,9 +24,36 @@ yaourt -S foxitreader
 yaourt -S font-manager
 yaourt -S discord
 yaourt -S 
+yaourt -S --noconfirm --needed numix-square-icon-theme
 
 
-sudo pacman -S 
+
+
+
+#Not added:
+
+yaourt -S  --noconfirm --needed conky-lua-archers
+yaourt -S  --noconfirm --needed 
+
+
+#What? archmerged repos
+conky-aureloa - 
+
+
+#yaourt -S pamac-aur
+#yaourt -S pacli
+
+
+
+
+
+
+
+
+
+
+##Arch Repos##
+sudo pacman -S --noconfirm --needed numix-gtk-theme
 sudo pacman -S 
 sudo pacman -S 
 sudo pacman -S 
