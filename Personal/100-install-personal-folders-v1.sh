@@ -1,10 +1,5 @@
 #!/bin/bash
 set -e
-##################################################################################################################
-#
-#   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
-#
-##################################################################################################################
 
 echo "Creating all folders"
 echo "Creates only folders if they do not exist"

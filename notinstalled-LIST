@@ -1,3 +1,5 @@
+Install uncomplicated firewall: the ufw package
+
 
 ##AUR Repos##
 yaourt -S xcursor-breeze
@@ -54,7 +56,7 @@ conky-aureloa -
 
 ##Arch Repos##
 sudo pacman -S --noconfirm --needed numix-gtk-theme
-sudo pacman -S 
+#sudo pacman -S --noconfirm --needed ufw
 sudo pacman -S 
 sudo pacman -S 
 sudo pacman -S 

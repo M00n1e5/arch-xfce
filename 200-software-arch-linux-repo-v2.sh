@@ -78,6 +78,9 @@ echo "Installing category Other"
 
 echo "Installing category System"
 
+#sudo pacman -S --noconfirm --needed ufw
+sudo pacman -S --noconfirm --needed slim-themes
+sudo pacman -S --noconfirm --needed archlinux-themes-slim
 sudo pacman -S --noconfirm --needed p7zip
 sudo pacman -S --noconfirm --needed tilda
 sudo pacman -S --noconfirm --needed archey3

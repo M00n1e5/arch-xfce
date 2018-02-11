@@ -1,4 +1,40 @@
+After installing XFCE4:
+
+You should already have Git as you have these files. In case you dont, it will be installed with 200.
+
+Run 100-display-manager-and-desktop-v1.sh for LightDM and XFCE4.
+reboot and log into XFCE4.
+
+Run 110, 120, 130, 140 and 150 for drivers etc.
+
+Edit and run 200 for software installs from the ARCH repos, edit file and hash out programs you wont use, or add new ones.
+
+To 300 or not to 300... Testing needed. (Maybe new file "NOTINSTALLED...")
+
+Rest locking system from launcher before running 400, if you are happy with lockscreen, hash out the line installing "Slim" from the 400 file before running.
+
+500 - just run it, no editing needed.
+
+600 - Conkys and theming from the ArchmergeD repos. 
+
+700 - More theming, fonts.
+
+800 - Autologin, run if you want autologin to system upon reboots.
+
+900 - microcode fix - run it.
+910 - Setting cursor theme.
+
+930 - setting lockscreen theme for Slim if installed. Easy edit with "sudo nano /etc/slim.conf" find "current_theme" near bottom. several themes installed to /usr/share/slim/themes/
+Done.
+
+Now, on to manual theming and tweaking:
+
+Personal favs:
 System Theme:	Arc Evopop-Dark
 System Icons:	Surfn Papirus Grey
 Fonts		:	Noto Sans
 Window Theme:	Arc-Evopop-Dark
+
+
+Whiskermenu open on Win key:
+Whiskermenu -> settings -> Keyboard -> Add: "xfce4-popup-whiskermenu" and click key of choice
