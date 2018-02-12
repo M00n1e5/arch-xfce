@@ -5,15 +5,6 @@ set -e
 sh AUR/install-conky-aureola-v*.sh
 
 
-
-yaourt -S --noconfirm --needed 
-yaourt -S --noconfirm --needed 
-yaourt -S --noconfirm --needed 
-yaourt -S --noconfirm --needed 
-yaourt -S --noconfirm --needed 
-yaourt -S --noconfirm --needed 
-yaourt -S --noconfirm --needed 
-yaourt -S --noconfirm --needed 
 yaourt -S --noconfirm --needed hardcode-fixer-git
 yaourt -S --noconfirm --needed sardi-orb-colora-variations-icons-git
 yaourt -S --noconfirm --needed arc-gtk-theme
@@ -51,18 +42,14 @@ yaourt -S --noconfirm --needed numix-square-icon-theme
 #yaourt -S --noconfirm --needed 
 #yaourt -S --noconfirm --needed 
 #yaourt -S --noconfirm --needed 
-
-
-echo "Installing category Accessories"
-echo "Installing category Development"
-echo "Installing category Education"
-echo "Installing category Games"
-echo "Installing category Graphics"
-echo "Installing category Internet"
-echo "Installing category Multimedia"
-echo "Installing category Office"
-echo "Installing category Other"
-echo "Installing category System"
+#yaourt -S --noconfirm --needed 
+#yaourt -S --noconfirm --needed 
+#yaourt -S --noconfirm --needed 
+#yaourt -S --noconfirm --needed 
+#yaourt -S --noconfirm --needed 
+#yaourt -S --noconfirm --needed 
+#yaourt -S --noconfirm --needed 
+#yaourt -S --noconfirm --needed 
 
 echo "################################################################"
 echo "####        Software from AUR Repository installed        ######"
