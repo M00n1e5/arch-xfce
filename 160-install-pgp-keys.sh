@@ -1,22 +1,20 @@
 #!/bin/bash
 set -e
 
-echo "Network Discovery"
 
-sudo pacman -S --noconfirm --needed avahi
+gpg --import pgp-keys/discord-hans-gpg-key
 echo "################################################################"
 echo "##############       1  /  2    installed   ####################"
 echo "################################################################"
-sudo systemctl enable avahi-daemon.service
-sudo systemctl start avahi-daemon.service
 
-#shares on a mac
-sudo pacman -S --noconfirm --needed nss-mdns
-sudo sed -i 's/dns myhostname/mdns dns wins myhostname/g' /etc/nsswitch.conf
+gpg --import pgp-keys/discord-stellard-gpg-key
 echo "################################################################"
 echo "##############       2  /  2    installed   ####################"
 echo "################################################################"
 
+#Add additional keys for your own installs later on
+
+
 echo "################################################################"
-echo "####       network discovery  software installed        ########"
+echo "############## PGP Keys imported"
 echo "################################################################"

@@ -1,11 +1,11 @@
-After installing XFCE4:
+# Arch XFCE Desktop
 
 You should already have Git as you have these files. In case you dont, it will be installed with 200.
 
 Run 100-display-manager-and-desktop-v1.sh for LightDM and XFCE4.
 reboot and log into XFCE4.
 
-Run 110, 120, 130, 140 and 150 for drivers etc.
+Run 110, 120, 130, 140, 150 and 160 for drivers etc.
 
 Edit and run 200 for software installs from the ARCH repos, edit file and hash out programs you wont use, or add new ones.
 

@@ -1,10 +1,7 @@
 #!/bin/bash
 set -e
-##################################################################################################################
-#
-#   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
-#
-##################################################################################################################
+
+
 
 echo "THIS SCRIPT WILL ASK YOUR LOGINNAME "
 echo "AND WILL USE IT TO ADD YOU TO THE AUTOLOGIN GROUP "

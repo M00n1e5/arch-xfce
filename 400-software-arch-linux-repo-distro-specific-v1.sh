@@ -10,27 +10,6 @@ set -e
 
 #Slim skal testes - mulig byttes med lightdm
 
-echo "DESKTOP SPECIFIC APPLICATIONS"
-
-echo "Installing category Accessories"
-
-echo "Installing category Development"
-
-echo "Installing category Education"
-
-echo "Installing category Games"
-
-echo "Installing category Graphics"
-
-echo "Installing category Internet"
-
-echo "Installing category Multimedia"
-
-echo "Installing category Office"
-
-echo "Installing category Other"
-
-echo "Installing category System"
 
 sudo pacman -S --noconfirm --needed dmenu
 sudo pacman -S --noconfirm --needed slim

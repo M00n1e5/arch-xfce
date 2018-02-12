@@ -44,6 +44,7 @@ sudo pacman -S --noconfirm --needed pinta
 
 echo "Installing category Internet"
 
+#sudo pacman -S --noconfirm --needed ufw
 #sudo pacman -S --noconfirm --needed chromium
 sudo pacman -S --noconfirm --needed filezilla
 #sudo pacman -S --noconfirm --needed firefox
